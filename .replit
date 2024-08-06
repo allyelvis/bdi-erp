@@ -1,0 +1,7 @@
+modules = ["angular-node-20", "bash", "gcloud", "php-8.2", "python-3.10", "replit-rtld-loader", "vue-node-18", "web", "python-with-prybar-3.10", "docker", "nodejs-18"]
+run = "npm start"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npm start"]
